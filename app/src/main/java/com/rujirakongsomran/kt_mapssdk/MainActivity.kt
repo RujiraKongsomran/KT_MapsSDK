@@ -33,14 +33,15 @@ internal class MainActivity : AppCompatActivity(), OnMapReadyCallback {
      */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
+        mMap.mapType = GoogleMap.MAP_TYPE_HYBRID
 
         // Add a marker in Sydney and move the camera
-//        val thailand = LatLng(13.736717, 100.523186)
-//        mMap.addMarker(
-//            MarkerOptions()
-//                .position(thailand)
-//                .title("Marker in Sydney")
-//        )
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(thailand))
+        val thailand = LatLng(13.736717, 100.523186)
+        mMap.addMarker(
+            MarkerOptions()
+                .position(thailand)
+                .title("Marker in Sydney")
+        )
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(thailand))
     }
 }
