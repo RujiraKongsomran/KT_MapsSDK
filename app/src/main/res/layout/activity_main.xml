@@ -15,6 +15,7 @@
         map:uiRotateGestures="true"
         map:cameraZoom="13"
         map:uiZoomControls="true"
+        map:mapType="normal"
         tools:context=".MapsActivity" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
