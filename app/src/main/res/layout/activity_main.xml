@@ -13,6 +13,7 @@
         android:layout_height="match_parent"
         map:cameraTilt="30"
         map:uiRotateGestures="true"
+        map:cameraZoom="13"
         map:uiZoomControls="true"
         tools:context=".MapsActivity" />
 
