@@ -35,12 +35,12 @@ internal class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val thailand = LatLng(13.736717, 100.523186)
-        mMap.addMarker(
-            MarkerOptions()
-                .position(thailand)
-                .title("Marker in Sydney")
-        )
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(thailand))
+//        val thailand = LatLng(13.736717, 100.523186)
+//        mMap.addMarker(
+//            MarkerOptions()
+//                .position(thailand)
+//                .title("Marker in Sydney")
+//        )
+//        mMap.moveCamera(CameraUpdateFactory.newLatLng(thailand))
     }
 }
